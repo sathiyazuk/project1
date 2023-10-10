@@ -48,9 +48,11 @@ section{
 /*home*/
 
 #home{
-	background: url("C:/Users/sathyapriya/Documents/bg6.jpg");
-	background-size: cover;
-	background-position: center;
+	background: url("./images/bg6.jpg");
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 	flex-direction: column;
 }
 #home h1{
